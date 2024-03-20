@@ -1,1 +1,8 @@
-
+#Peso ideal
+sexo = int(input("Qual seu sexo? digite 1 - Maculino, digite 2- feminino: "))
+h = float(input("Informe sua altura em metros: "))
+if sexo == 1:
+    peso_ideal = (72.7*h) - 58
+if sexo == 2:
+    peso_ideal = (62.1*h) - 44.7
+print(f"Seu peso ideal é: {peso_ideal}")
