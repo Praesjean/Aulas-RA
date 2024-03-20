@@ -1,4 +1,4 @@
-print("Quantos graus celcius está fazendo")
+#Quantos graus celcius está fazendo
 x=int(input("Digite a temperatura: "))
 if x<=14:
     print("está frio")
