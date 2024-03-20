@@ -1,4 +1,4 @@
-print("Posso me aposentar?")
+#Apto ou inapto a aposentar
 x=int(input("Digite sua idade: "))
 y=int(input("Digite seu tempo de serviço: "))
 if x>=65 or y>=30 or x>=60 and y>=25:
