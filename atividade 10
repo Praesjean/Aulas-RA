@@ -1,1 +1,19 @@
+#Notas do bimestre
+univ = int(input("Qual sua universidade? PUCPR digite 1, UNICAMP digite 2: "))
+x = int(input("Digite sua nota: "))
 
+if univ == 1:
+    print("PUCPR")
+if x >= 7:
+    print("aprovado")
+if x >= 4 and x < 7:
+    print("em exame")
+if x < 4:
+    print("reprovado")
+
+if univ == 2:
+    print("UNICAMP")
+if x >= 5:
+    print("aprovado")
+if x < 5:
+    print("reprovado")
