@@ -2,9 +2,7 @@
 numero = int(input("Digite o número: "))
 if numero % 2 != 0:
     print("ímpar")
-    print(f"{numero} pertence ao conjunto I")
-elif numero == o:
+elif numero == 0:
     print(f"O número {numero} não pertence a nenhum dos conjuntos")
 else:
     print("O número é par")
-    print(f"{numero} pertence ao conjunto P")
