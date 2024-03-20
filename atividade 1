@@ -1,0 +1,10 @@
+print("Nome dos números")
+x=int(input("digite um número: "))
+if x==0:
+    print("zero")
+if x==1:
+    print("um")
+if x==2:
+    print("dois")
+if x>=3:
+    print("erro")
