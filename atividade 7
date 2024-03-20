@@ -1,1 +1,7 @@
-
+print("Hopi Hari")
+x=int(input("Digite sua idade: "))
+y=int(input("Digite seu peso: "))
+if x>=15 and y<=120:
+    print("liberado")
+if x<15 and y>120:
+    print("proibido")
