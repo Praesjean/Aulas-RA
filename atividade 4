@@ -1,4 +1,4 @@
-print("Notas dos Estudantes")
+#Notas dos Estudantes
 x=int(input("Digite sua nota: "))
 if x>7:
     print("Estudante aprovado")
