@@ -1,6 +1,6 @@
 #Quantos graus celcius está fazendo
 x = int(input("Digite a temperatura: "))
-if x <= 14:
+if x < 15:
     print("está frio")
 if x >= 15 and x <= 25:
     print("está agradavel")
