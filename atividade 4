@@ -1,1 +1,8 @@
-
+print("Notas dos Estudantes")
+x=int(input("Digite sua nota: "))
+if x>7:
+    print("Estudante aprovado")
+if x>=4 and x<=7:
+    print("Estudante em recuperação")
+if x<4:
+    print("Estudante reprovado")
