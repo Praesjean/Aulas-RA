@@ -1,4 +1,4 @@
-print("Voto Eleitoral")
+#Voto Eleitoral
 x=int(input("Digite sua idade: "))
 if x<16:
     print("não eleitor")
