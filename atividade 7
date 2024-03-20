@@ -1,4 +1,4 @@
-print("Hopi Hari")
+#Hopi Hari
 x=int(input("Digite sua idade: "))
 y=int(input("Digite seu peso: "))
 if x>=15 and y<=120:
