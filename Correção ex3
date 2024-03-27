@@ -1,0 +1,24 @@
+#Correção 3
+somaPar = 0
+numPares = 0
+somaImpar = 0
+numImpar = 0
+
+while numPares < 5 and somaImpar <= 30:
+    numero = int(input("Informe um número inteiro: "))
+
+    if numero % 2 == 0:
+        print(f"O número {numero} é par")
+        somaPar += numero
+        numPares += 1
+    elif numero < 0:
+         print("Número inválido, digite outro número")
+    else:
+        print(f"O número {numero} é impar")
+        somaImpar += numero
+        numImpar += 1
+
+print(f"A quanridade de números pares é: {numPares}")
+print(f"A soma dos números pares é: {somaPar}")
+print(f"A quantidade de números ímpares é: {numImpar}")
+print(f"A soma dos números ímpar é: {somaImpar}")
