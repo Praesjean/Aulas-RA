@@ -1,0 +1,24 @@
+#Atividade Calculadora - RA
+
+while True:
+    num1 = int(input("Informe o primero número: "))
+    num2 = int(input("Informe o segundo número: "))
+    print("Soma: +")
+    print("Subtração: -")
+    print("Multiplicação: *")
+    print("Divisão: /")
+    operacao = input("Informe a Operação com os sinais a cima: ")
+    resultado = 0
+
+    if(operacao == '+'):
+        resultado = num1 + num2
+    elif(operacao == '-'):
+        resultado = num1 - num2
+    elif(operacao == '*'):
+        resultado = num1 * num2
+    elif(operacao == '/'):
+        resultado = num1 / num2
+    else:
+        print("Houve um erro, reinicie o programa.")
+    
+    print(num1,operacao,num2,'=',resultado)
